@@ -2,10 +2,10 @@ import React from "react";
 import Image from "next/image";
 export default function Footer() {
   return (
-    <section class="py-12 bg-gradient-to-r from-fuchsia-600 to-blue-600 ">
-      <div class="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
-        <div class="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
-          <div class="xl:flex xl:items-center xl:justify-start">
+    <section className="py-12 bg-gradient-to-r from-fuchsia-600 to-blue-600 absolute w-full bottom-0 ">
+      <div className="px-4 mx-auto sm:px-6 lg:px-8 max-w-7xl">
+        <div className="text-center xl:flex xl:items-center xl:justify-between xl:text-left">
+          <div className="xl:flex xl:items-center xl:justify-start">
             <Image
               className="w-auto mx-auto h-7"
               src="https://cdn.rareblocks.xyz/collection/celebration/images/logo-alt-2.svg"
@@ -14,18 +14,18 @@ export default function Footer() {
               alt=""
             />
 
-            <p class="mt-5 text-sm text-white xl:ml-6 xl:mt-0">
+            <p className="mt-5 text-sm text-white xl:ml-6 xl:mt-0">
               © Copyright 2021 Postcraft
             </p>
           </div>
 
-          <div class="items-center mt-8 xl:mt-0 xl:flex xl:justify-end xl:space-x-8">
-            <ul class="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
+          <div className="items-center mt-8 xl:mt-0 xl:flex xl:justify-end xl:space-x-8">
+            <ul className="flex flex-wrap items-center justify-center gap-x-8 gap-y-3 xl:justify-end">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   About{" "}
@@ -36,7 +36,7 @@ export default function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Services{" "}
@@ -47,7 +47,7 @@ export default function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Privacy Policy{" "}
@@ -58,7 +58,7 @@ export default function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Terms & Conditions{" "}
@@ -69,7 +69,7 @@ export default function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="text-sm text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   {" "}
                   Support{" "}
@@ -77,17 +77,17 @@ export default function Footer() {
               </li>
             </ul>
 
-            <div class="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6 bg-gray-50/20"></div>
+            <div className="w-full h-px mt-8 mb-5 xl:w-px xl:m-0 xl:h-6 bg-gray-50/20"></div>
 
-            <ul class="flex items-center justify-center space-x-8 xl:justify-end">
+            <ul className="flex items-center justify-center space-x-8 xl:justify-end">
               <li>
                 <a
                   href="#"
                   title=""
-                  class="block text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="block text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   <svg
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -101,10 +101,10 @@ export default function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="block text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="block text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   <svg
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
@@ -118,10 +118,10 @@ export default function Footer() {
                 <a
                   href="#"
                   title=""
-                  class="block text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
+                  className="block text-white transition-all duration-200 hover:text-opacity-80 focus:text-opacity-80"
                 >
                   <svg
-                    class="w-6 h-6"
+                    className="w-6 h-6"
                     xmlns="http://www.w3.org/2000/svg"
                     viewBox="0 0 24 24"
                     fill="currentColor"
