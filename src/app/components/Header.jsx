@@ -1,13 +1,14 @@
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
+import DarkModeToggle from "./darkmodetoggle/DarkModeToggle";
 export default function Header() {
   return (
     <header className="pb-6 bg-white lg:pb-0">
       <div className="px-4 mx-auto max-w-7xl sm:px-6 lg:px-8">
         <nav className="flex items-center justify-between h-16 lg:h-20">
           <div className="flex-shrink-0">
-            <a href="#" title="" className="flex">
+            <Link href="/" title="" className="flex">
               <Image
                 className="w-auto h-8 lg:h-10"
                 src="https://cdn.rareblocks.xyz/collection/celebration/images/logo.svg"
@@ -15,7 +16,7 @@ export default function Header() {
                 width={200}
                 height={200}
               />
-            </a>
+            </Link>
           </div>
 
           <button
@@ -54,6 +55,7 @@ export default function Header() {
           </button>
 
           <div class="hidden lg:flex lg:items-center lg:ml-auto lg:space-x-10">
+            <DarkModeToggle />
             <Link
               href="/"
               title=""
